@@ -1,0 +1,23 @@
+h1,h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+#searchsection {
+    display: flex;
+    margin: auto;
+}
+
+#univList{
+    display:block;
+    margin: auto;
+    max-width: 80%;
+}
+
+#pagin{
+    display:flexbox;
+    margin: auto;
+    align-items: center;
+    max-width: 80%;
+}
