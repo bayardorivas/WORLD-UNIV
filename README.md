@@ -47,22 +47,24 @@
 
 ## :dart: About ##
 
-This project was created with React [React](https://en.reactjs.org/). It simulates a very basic ATM Machine. As user you can make deposits and withdraw, and your balance is updated automatically. You can see how useState is used.
+WORLD-UNIV is a project that list universities of the country that is queried. In this case 
+I use this [API](http://universities.hipolabs.com/search?country=).
+
+This project was created with React [React](https://en.reactjs.org/), and using three hooks: useState, useEffect, useReducer.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Make deposit
-:heavy_check_mark: Make withdraw
-:heavy_check_mark: Check your balance
+:heavy_check_mark: Query by country
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- React JSX 
+- React JSX (useState, useEffect, useReducer)
 - HTML
 - CSS
 - [Babel](https://babeljs.io/)
+- [Bootswatch](https://bootswatch.com/)
 
 ## :white_check_mark: Requirements ##
 
@@ -82,14 +84,12 @@ $ cd WORLD-UNIV
 ## :recycle: Improvements ##
 
 It would be nice the next improvements:
-- [ ] User authentication.
-- [ ] Multiuser to make transfers between users.
-- [ ] Notification alerts when balance is lower than an specific amount.
+- [ ] Select the number of universities listed by page.
+- [ ] Add a checkbox and create a new array for universities of interes.
 
 ## :memo: License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
 
 Made with :heart: by <a href="https://github.com/bayardorivas" target="_blank">Bayardo Rivas</a>
 
