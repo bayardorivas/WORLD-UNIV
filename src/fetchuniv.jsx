@@ -111,7 +111,7 @@ function App() {
   return (
     <Fragment>
       <form
-        class="d-flex"
+        className="d-flex"
         onSubmit={(event) => {
           doFetch(`http://universities.hipolabs.com/search?country=${query}`);
           event.preventDefault();
@@ -136,7 +136,7 @@ function App() {
         </div>
       </form>
       <h5>
-        <small class="text-muted">Write country name in english</small>
+        <small className="text-muted">Write country name in english</small>
       </h5>
 
       {isError && <div>Something went wrong ...</div>}
